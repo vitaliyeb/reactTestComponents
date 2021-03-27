@@ -1,8 +1,11 @@
+import react from 'react';
+
+import JestDomComponent from "./jestDomComponent";
 
 function App() {
   return (
     <div>
-        test
+        <JestDomComponent />
     </div>
   );
 }
