@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import App from './App';
 
 
-describe('тестирование методом библиотеки jest-dom', () => {
+describe('тестирование методов библиотеки jest-dom', () => {
     beforeEach(() => {
         render(<App />);
     })
@@ -35,15 +35,15 @@ describe('тестирование методом библиотеки jest-dom'
         expect(nonExistentElement).not.toBeInTheDocument();
     })
 
-    test('тестирование на toBeInvalid', ()=> {
+    test('тестирование на toBeInvalid и toBeValid', ()=> {
         const invalidInput = screen.getByTestId('invalidInput');
-        const notInvalidInput = screen.getByTestId('notInvalidInput');
+        const notInvalidInput = screen.getByTestId('validInput');
         const invalidForm = screen.getByTestId('invalidForm');
-        const notInvalidForm = screen.getByTestId('notInvalidForm');
+        const notInvalidForm = screen.getByTestId('validForm');
         expect(invalidInput).toBeInvalid();
-        expect(notInvalidInput).not.toBeInvalid();
+        expect(notInvalidInput).toBeValid();
         expect(invalidForm).toBeInvalid();
-        expect(notInvalidForm).not.toBeInvalid();
+        expect(notInvalidForm).toBeValid();
     })
 
     test('тестирование на toBeRequired', () => {
@@ -51,6 +51,24 @@ describe('тестирование методом библиотеки jest-dom'
         const notRequiredElement = screen.getByTestId('notRequiredElement');
         expect(requiredElement).toBeRequired();
         expect(notRequiredElement).not.toBeRequired();
+    })
+
+    test('тестирование на toBeVisible', () => {
+        const visible = screen.getByTestId('tobeVisible-visible');
+        const hidden = screen.getByTestId('tobeVisible-hiddenProperty');
+        const opacity = screen.getByTestId('tobeVisible-opacity');
+        const displayNone = screen.getByTestId('toBeVisible-displayNone');
+        expect(visible).toBeVisible();
+        expect(hidden).not.toBeVisible();
+        expect(opacity).not.toBeVisible();
+        expect(displayNone).not.toBeVisible();
+    })
+
+    test('тестирование на toContainElement', () => {
+        const parentElement = screen.getByTestId('toContainElement-parent');
+        const childrenElement = screen.getByTestId('toContainElement-child');
+
+        expect(parentElement).toContainElement(childrenElement);
     })
 })
 

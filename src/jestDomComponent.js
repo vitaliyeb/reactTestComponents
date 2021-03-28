@@ -25,11 +25,11 @@ export default function JestDomComponent () {
             <div>
                 {/*toBeInvalid*/}
                 <input data-testid='invalidInput' type="text" aria-invalid/>
-                <input data-testid='notInvalidInput' type="text" aria-invalid='false'/>
+                <input data-testid='validInput' type="text" aria-invalid='false'/>
                 <form data-testid='invalidForm'>
                     <input type="text" required/>
                 </form>
-                <form data-testid='notInvalidForm'>
+                <form data-testid='validForm'>
                     <input type="text" value='test text' readOnly required/>
                 </form>
             </div>
@@ -37,6 +37,19 @@ export default function JestDomComponent () {
                 {/*toBeRequired*/}
                 <input data-testid='requiredElement' type="text" required/>
                 <input data-testid='notRequiredElement' type="text"/>
+            </div>
+            <div>
+                {/*toBeVisible*/}
+                <div data-testid="tobeVisible-visible"></div>
+                <div data-testid="tobeVisible-hiddenProperty" hidden></div>
+                <div data-testid="tobeVisible-opacity" style={{opacity: 0}}></div>
+                <div data-testid="toBeVisible-displayNone" style={{display: 'none'}}></div>
+            </div>
+            <div>
+                {/*toContainElement*/}
+                <div data-testid='toContainElement-parent'>
+                    <div data-testid='toContainElement-child'></div>
+                </div>
             </div>
         </div>
     )
