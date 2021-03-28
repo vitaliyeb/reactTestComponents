@@ -60,6 +60,21 @@ export default function JestDomComponent () {
                 <div data-testid='toHaveAttributeElement' data-myattribute='test'></div>
             </div>
             <div>
+                {/*toHaveAttribute*/}
+                <div data-testid='toHaveClass' className='myClass'></div>
+            </div>
+            <div>
+                {/*toHaveFocus*/}
+                <input data-testid='toHaveFocus' type="text"/>
+            </div>
+            <div>
+                {/*toHaveFormValues*/}
+                <form data-testid='formValuesTest'>
+                    <input type="text" name='username' value='vitaliyeb' readOnly/>
+                    <input type="checkbox" name='agreement' checked readOnly/>
+                </form>
+            </div>
+            <div>
                 {/**/}
                 <div data-testid=''></div>
             </div>

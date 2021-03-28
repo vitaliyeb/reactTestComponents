@@ -80,6 +80,32 @@ describe('тестирование методов библиотеки jest-dom'
         expect(toHaveAttributeElement).toHaveAttribute('data-myattribute');
         expect(toHaveAttributeElement).toHaveAttribute('data-myattribute', 'test');
     })
+
+    test('тестирование на toHaveClass', () => {
+        const element = screen.getByTestId('toHaveClass');
+        expect(element).toHaveClass('myClass');
+    })
+
+    test('тестирование на toHaveFocus', () => {
+        const input = screen.getByTestId('toHaveFocus');
+        expect(input).not.toHaveFocus();
+        input.focus();
+        expect(input).toHaveFocus();
+        input.blur();
+        expect(input).not.toHaveFocus();
+    })
+
+    test('тестирование toHaveFormValues', () => {
+        const form = screen.getByTestId('formValuesTest');
+        expect(form).toHaveFormValues({
+            'username': 'vitaliyeb',
+            'agreement': true
+        });
+    })
+
+    test('', () => {
+
+    })
 })
 
 
