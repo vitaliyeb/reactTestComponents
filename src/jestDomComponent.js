@@ -51,6 +51,18 @@ export default function JestDomComponent () {
                     <div data-testid='toContainElement-child'></div>
                 </div>
             </div>
+            <div>
+                {/*toContainHTML*/}
+                <div data-testid='toContainHTML-parent'><p>test</p></div>
+            </div>
+            <div>
+                {/*toHaveAttribute*/}
+                <div data-testid='toHaveAttributeElement' data-myattribute='test'></div>
+            </div>
+            <div>
+                {/**/}
+                <div data-testid=''></div>
+            </div>
         </div>
     )
 }

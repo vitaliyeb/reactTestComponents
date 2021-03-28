@@ -67,8 +67,18 @@ describe('тестирование методов библиотеки jest-dom'
     test('тестирование на toContainElement', () => {
         const parentElement = screen.getByTestId('toContainElement-parent');
         const childrenElement = screen.getByTestId('toContainElement-child');
-
         expect(parentElement).toContainElement(childrenElement);
+    })
+
+    test('тестирование на toContainHTML', () => {
+        const parent = screen.getByTestId('toContainHTML-parent');
+        expect(parent).toContainHTML('<p>test</p>')
+    })
+
+    test('тестирование на toHaveAttribute', () => {
+        const toHaveAttributeElement = screen.getByTestId('toHaveAttributeElement');
+        expect(toHaveAttributeElement).toHaveAttribute('data-myattribute');
+        expect(toHaveAttributeElement).toHaveAttribute('data-myattribute', 'test');
     })
 })
 
