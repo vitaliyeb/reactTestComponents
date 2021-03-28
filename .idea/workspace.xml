@@ -11,9 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044f7f5e-e2d3-4fbb-ae50-7528e08023e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JestDomComponent.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JestDomComponent.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jestDomComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jestDomComponent.js" afterDir="false" />
@@ -61,34 +58,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
-  <component name="RunManager" selected="Jest.тестирование методом библиотеки jest-dom.тестирование на toBeInTheDocument">
-    <configuration name="тестирование методом библиотеки jest-dom" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
-      <test-names>
-        <test-name value="тестирование методом библиотеки jest-dom" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="тестирование методом библиотеки jest-dom.тестирование на toBeEmpty" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
-      <test-names>
-        <test-name value="тестирование методом библиотеки jest-dom" />
-        <test-name value="тестирование на toBeEmpty" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.тестирование методом библиотеки jest-dom.тестирование на toBeRequired">
     <configuration name="тестирование методом библиотеки jest-dom.тестирование на toBeInTheDocument" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -100,6 +70,34 @@
       <test-names>
         <test-name value="тестирование методом библиотеки jest-dom" />
         <test-name value="тестирование на toBeInTheDocument" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="тестирование методом библиотеки jest-dom.тестирование на toBeInvalid" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
+      <test-names>
+        <test-name value="тестирование методом библиотеки jest-dom" />
+        <test-name value="тестирование на toBeInvalid" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="тестирование методом библиотеки jest-dom.тестирование на toBeRequired" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
+      <test-names>
+        <test-name value="тестирование методом библиотеки jest-dom" />
+        <test-name value="тестирование на toBeRequired" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.тестирование методом библиотеки jest-dom.тестирование на toBeRequired" />
+        <item itemvalue="Jest.тестирование методом библиотеки jest-dom.тестирование на toBeInvalid" />
         <item itemvalue="Jest.тестирование методом библиотеки jest-dom.тестирование на toBeInTheDocument" />
         <item itemvalue="Jest.тестирование методом библиотеки jest-dom." />
         <item itemvalue="Jest.тестирование методом библиотеки jest-dom.тестирование toBeEmptyDOMElement" />
-        <item itemvalue="Jest.тестирование методом библиотеки jest-dom.тестирование на toBeEmpty" />
-        <item itemvalue="Jest.тестирование методом библиотеки jest-dom" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616770027378</updated>
       <workItem from="1616770028786" duration="6032000" />
-      <workItem from="1616905588947" duration="74000" />
+      <workItem from="1616905588947" duration="2301000" />
     </task>
     <servers />
   </component>
@@ -180,22 +178,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616847043188" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1616847045541">
+    <state width="723" height="209" key="GridCell.Tab.0.bottom" timestamp="1616907881914">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616847045541" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1616847045540">
+    <state width="723" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1616907881914" />
+    <state width="723" height="209" key="GridCell.Tab.0.center" timestamp="1616907881913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616847045540" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1616847045540">
+    <state width="723" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1616907881913" />
+    <state width="723" height="209" key="GridCell.Tab.0.left" timestamp="1616907881913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616847045540" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1616847045541">
+    <state width="723" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1616907881913" />
+    <state width="723" height="209" key="GridCell.Tab.0.right" timestamp="1616907881913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616847045541" />
+    <state width="723" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616907881913" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1616771311500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -34,6 +34,24 @@ describe('тестирование методом библиотеки jest-dom'
         expect(element).toBeInTheDocument();
         expect(nonExistentElement).not.toBeInTheDocument();
     })
+
+    test('тестирование на toBeInvalid', ()=> {
+        const invalidInput = screen.getByTestId('invalidInput');
+        const notInvalidInput = screen.getByTestId('notInvalidInput');
+        const invalidForm = screen.getByTestId('invalidForm');
+        const notInvalidForm = screen.getByTestId('notInvalidForm');
+        expect(invalidInput).toBeInvalid();
+        expect(notInvalidInput).not.toBeInvalid();
+        expect(invalidForm).toBeInvalid();
+        expect(notInvalidForm).not.toBeInvalid();
+    })
+
+    test('тестирование на toBeRequired', () => {
+        const requiredElement = screen.getByTestId('requiredElement');
+        const notRequiredElement = screen.getByTestId('notRequiredElement');
+        expect(requiredElement).toBeRequired();
+        expect(notRequiredElement).not.toBeRequired();
+    })
 })
 
 
