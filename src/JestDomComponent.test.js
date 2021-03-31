@@ -104,6 +104,21 @@ describe('тестирование методов библиотеки jest-dom'
     })
 
     test('тестирование на toHaveStyle', () => {
+        const el = screen.getByTestId('haveStyle');
+        expect(el).toHaveStyle({
+            padding: '20px',
+            color: 'red'
+        });
+    })
+
+    test('тестирование на toHaveTextContent', () => {
+        const el = screen.getByTestId('haveTextContent');
+        expect(el).toHaveTextContent('test text');
+        expect(el).toHaveTextContent(/TEXT/i);
+        expect(el).not.toHaveTextContent('brr');
+    })
+
+    test('', () => {
 
     })
 })

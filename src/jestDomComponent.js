@@ -75,6 +75,19 @@ export default function JestDomComponent () {
                 </form>
             </div>
             <div>
+                {/*toHaveStyle*/}
+                <div data-testid='haveStyle' style={{padding: '20px', color: 'red'}}>padding</div>
+            </div>
+            <div>
+                {/*toHaveTextContent*/}
+                <div data-testid='haveTextContent'>
+                    <p>
+                        test text
+                    </p>
+                </div>
+            </div>
+
+            <div>
                 {/**/}
                 <div data-testid=''></div>
             </div>
