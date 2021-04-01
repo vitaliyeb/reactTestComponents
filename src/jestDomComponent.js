@@ -88,6 +88,12 @@ export default function JestDomComponent () {
             </div>
 
             <div>
+                {/*toHaveTextContent*/}
+                <div data-testid='haveTextMyText'>my text</div>
+                <div data-testid='notHaveTextContent'> not my text</div>
+            </div>
+
+            <div>
                 {/**/}
                 <div data-testid=''></div>
             </div>
