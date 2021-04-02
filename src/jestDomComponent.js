@@ -85,12 +85,20 @@ export default function JestDomComponent () {
                         test text
                     </p>
                 </div>
+                <div data-testid='haveTextMyText'>my text</div>
+                <div data-testid='notHaveTextContent'> not my text</div>
             </div>
 
             <div>
-                {/*toHaveTextContent*/}
-                <div data-testid='haveTextMyText'>my text</div>
-                <div data-testid='notHaveTextContent'> not my text</div>
+                {/*toHaveValue*/}
+                <div data-testid=''>
+                    <input type="text" data-testid='toHaveValueText' value='testValues' onChange={()=>{}}/>
+                    <select data-testid='toHaveValueSelect' value={['banana', 'apple']} multiple onChange={()=>{}}>
+                        <option value="apple" >Яблоки</option>
+                        <option value="banana" >Банан</option>
+                        <option value="kiwi">Киви</option>
+                    </select>
+                </div>
             </div>
 
             <div>

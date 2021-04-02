@@ -116,16 +116,17 @@ describe('тестирование методов библиотеки jest-dom'
         expect(el).toHaveTextContent('test text');
         expect(el).toHaveTextContent(/TEXT/i);
         expect(el).not.toHaveTextContent('brr');
-    })
-
-    test('toHaveTextContent', () => {
         const elHaveText = screen.getByTestId('haveTextMyText');
         const elNotHaveText = screen.getByTestId('notHaveTextContent');
         expect(elHaveText).toHaveTextContent(/text/);
         expect(elNotHaveText).not.toHaveTextContent(/TEXT/);
     })
 
-    test('', () => {
+    test('тестирование на toHaveValue', () => {
+        const elText = screen.getByTestId('toHaveValueText');
+        const toHaveValueSelect = screen.getByTestId('toHaveValueSelect');
+        expect(elText).toHaveValue('testValues');
+        expect(toHaveValueSelect).toHaveValue(['banana', 'apple'])
 
     })
 })
