@@ -129,6 +129,15 @@ describe('тестирование методов библиотеки jest-dom'
         expect(toHaveValueSelect).toHaveValue(['banana', 'apple'])
 
     })
+
+    test('тестирование на toHaveDisplayValue', () => {
+
+
+    })
+
+    test('тестирование на ', () => {
+
+    })
 })
 
 
