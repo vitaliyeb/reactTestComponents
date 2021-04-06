@@ -102,7 +102,7 @@ export default function JestDomComponent () {
             </div>
 
             <div>
-                {/**/}
+                {/*toHaveDisplayValue*/}
                 <div data-testid=''></div>
             </div>
         </div>

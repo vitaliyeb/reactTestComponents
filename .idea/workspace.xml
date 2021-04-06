@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="044f7f5e-e2d3-4fbb-ae50-7528e08023e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JestDomComponent.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JestDomComponent.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jestDomComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jestDomComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +156,8 @@
       <workItem from="1617297601289" duration="753000" />
       <workItem from="1617334300077" duration="1700000" />
       <workItem from="1617336110627" duration="198000" />
-      <workItem from="1617641489420" duration="70000" />
+      <workItem from="1617641489420" duration="107000" />
+      <workItem from="1617731096865" duration="123000" />
     </task>
     <servers />
   </component>
