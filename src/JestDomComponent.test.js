@@ -131,7 +131,8 @@ describe('тестирование методов библиотеки jest-dom'
     })
 
     test('тестирование на toHaveDisplayValue', () => {
-
+        const input = screen.getByLabelText(/Your name:/i);
+        expect(input).toHaveDisplayValue('vitaliy');
 
     })
 

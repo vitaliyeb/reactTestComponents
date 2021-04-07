@@ -103,7 +103,8 @@ export default function JestDomComponent () {
 
             <div>
                 {/*toHaveDisplayValue*/}
-                <div data-testid=''></div>
+                <label htmlFor="nameLabel">Your name:</label>
+                <input type="text" id='nameLabel' onChange={()=>{}} value='vitaliy'/>
             </div>
         </div>
     )
