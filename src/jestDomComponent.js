@@ -106,6 +106,11 @@ export default function JestDomComponent () {
                 <label htmlFor="nameLabel">Your name:</label>
                 <input type="text" id='nameLabel' onChange={()=>{}} value='vitaliy'/>
             </div>
+
+            <div>
+                {/*toHaveChecked*/}
+                <input type="checkbox"/>
+            </div>
         </div>
     )
 }
