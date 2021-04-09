@@ -136,8 +136,9 @@ describe('тестирование методов библиотеки jest-dom'
 
     })
 
-    test('тестирование на toHaveChecked', () => {
-
+    test('тестирование на toBeChecked', () => {
+        const input = screen.getByTestId('toBeCheckedTest');
+        expect(input).toBeChecked();
     })
 
 
