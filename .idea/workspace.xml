@@ -58,7 +58,21 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
-  <component name="RunManager" selected="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveChecked">
+  <component name="RunManager" selected="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveDescription">
+    <configuration name="тестирование методов библиотеки jest-dom.тестирование на toBeChecked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
+      <test-names>
+        <test-name value="тестирование методов библиотеки jest-dom" />
+        <test-name value="тестирование на toBeChecked" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="тестирование методов библиотеки jest-dom.тестирование на toHaveChecked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -70,6 +84,20 @@
       <test-names>
         <test-name value="тестирование методов библиотеки jest-dom" />
         <test-name value="тестирование на toHaveChecked" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="тестирование методов библиотеки jest-dom.тестирование на toHaveDescription" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
+      <test-names>
+        <test-name value="тестирование методов библиотеки jest-dom" />
+        <test-name value="тестирование на toHaveDescription" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -87,20 +115,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="тестирование методов библиотеки jest-dom.тестирование на toHaveTextContent" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
-      <test-names>
-        <test-name value="тестирование методов библиотеки jest-dom" />
-        <test-name value="тестирование на toHaveTextContent" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="тестирование методов библиотеки jest-dom.тестирование на toHaveValue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -115,27 +129,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="тестирование методов библиотеки jest-dom.toHaveTextContent" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
-      <test-names>
-        <test-name value="тестирование методов библиотеки jest-dom" />
-        <test-name value="toHaveTextContent" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveChecked" />
+        <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveDescription" />
+        <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toBeChecked" />
         <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveDisplayValue" />
+        <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveChecked" />
         <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveValue" />
-        <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveTextContent" />
-        <item itemvalue="Jest.тестирование методов библиотеки jest-dom.toHaveTextContent" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,9 @@
       <workItem from="1617808245608" duration="779000" />
       <workItem from="1617935554578" duration="503000" />
       <workItem from="1617979809073" duration="104000" />
-      <workItem from="1617987814809" duration="236000" />
+      <workItem from="1617987814809" duration="270000" />
+      <workItem from="1618122856064" duration="574000" />
+      <workItem from="1618284681086" duration="1531000" />
     </task>
     <servers />
   </component>
@@ -190,26 +192,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="429" y="63" key="#тестирование_методов_библиотеки_jest-dom.тестирование_на_toHaveDisplayValue/0.0.1536.824@0.0.1536.824" timestamp="1617808748815" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1617979911212">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1618123432776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617979911212" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1617809030250">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618123432776" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1618199735634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617809030250" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1617809030250">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1618199735634" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1618199735634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617809030250" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1617809030250">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1618199735634" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1618199735634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617809030250" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1617809030250">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1618199735634" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1618199735634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617809030250" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1618199735634" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1616771311500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

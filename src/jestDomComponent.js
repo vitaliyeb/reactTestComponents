@@ -109,7 +109,14 @@ export default function JestDomComponent () {
 
             <div>
                 {/*toHaveChecked*/}
-                <input data-testId='toBeCheckedTest' onChange={()=>{}} type="checkbox" checked/>
+                <input data-testid='toBeCheckedTest' onChange={()=>{}} type="checkbox" checked/>
+            </div>
+
+            <div>
+                {/*toHaveDescription*/}
+                <div data-testid='divDescription' aria-describedby='my description'>
+
+                </div>
             </div>
         </div>
     )
