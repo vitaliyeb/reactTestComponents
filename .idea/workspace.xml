@@ -11,15 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044f7f5e-e2d3-4fbb-ae50-7528e08023e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestReduxComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/counterReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JestDomComponent.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JestDomComponent.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestReduxComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestReduxComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +166,8 @@
       <workItem from="1618122856064" duration="574000" />
       <workItem from="1618284681086" duration="1791000" />
       <workItem from="1618286505973" duration="28000" />
-      <workItem from="1618326886640" duration="1735000" />
+      <workItem from="1618326886640" duration="1800000" />
+      <workItem from="1618419786010" duration="96000" />
     </task>
     <servers />
   </component>
@@ -201,10 +195,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="429" y="63" key="#тестирование_методов_библиотеки_jest-dom.тестирование_на_toHaveDisplayValue/0.0.1536.824@0.0.1536.824" timestamp="1617808748815" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1618286531892">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1618328706428">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618286531892" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1618328706428" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1618286491676">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
