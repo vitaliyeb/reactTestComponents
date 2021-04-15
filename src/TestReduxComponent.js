@@ -1,14 +1,15 @@
 import react from 'react';
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 
 
 const TestReduxComponent = () => {
     const count = useSelector(state => state.count);
+    const dispatch = useDispatch();
 
     return (<div>
         <p>{count}</p>
-        <button>+</button>
-        <button>-</button>
+        <button onClick={dispatch({type: 'INCREMENT'})}>+</button>
+        <button  onClick={dispatch({type: 'DECREMENT'})}>-</button>
     </div>)
 }
 
