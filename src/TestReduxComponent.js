@@ -8,8 +8,8 @@ const TestReduxComponent = () => {
 
     return (<div>
         <p>{count}</p>
-        <button onClick={dispatch({type: 'INCREMENT'})}>+</button>
-        <button  onClick={dispatch({type: 'DECREMENT'})}>-</button>
+        <button onClick={()=>dispatch({type: 'INCREMENT'})}>+</button>
+        <button  onClick={()=>dispatch({type: 'DECREMENT'})}>-</button>
     </div>)
 }
 

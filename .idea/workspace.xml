@@ -12,7 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="044f7f5e-e2d3-4fbb-ae50-7528e08023e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/counterReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/counterReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestReduxComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestReduxComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +169,8 @@
       <workItem from="1618326886640" duration="1800000" />
       <workItem from="1618419786010" duration="311000" />
       <workItem from="1618541862866" duration="236000" />
-      <workItem from="1618591550630" duration="293000" />
+      <workItem from="1618591550630" duration="319000" />
+      <workItem from="1618932024673" duration="332000" />
     </task>
     <servers />
   </component>
