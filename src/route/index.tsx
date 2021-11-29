@@ -9,6 +9,7 @@ import Loader from "../components/uikit/loader";
 const Users = lazy(() => import('../pages/Users'));
 
 const MainRouter = () => {
+    console.log('test')
     return (<BrowserRouter>
         <Suspense fallback={<Loader/>}>
             <Routes>
