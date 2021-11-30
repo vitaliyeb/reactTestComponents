@@ -1,7 +1,10 @@
-import {useParams} from "react-router-dom";
+import {
+    useLocation,
+    useParams,
+} from "react-router-dom";
 
 
-const User = () => {
+const User = (props: any) => {
     const {userId} = useParams();
 
     return <p>user {userId} </p>

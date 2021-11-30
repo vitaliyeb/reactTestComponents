@@ -1,9 +1,14 @@
-import {useResolvedPath, resolvePath, useLocation, Outlet} from "react-router-dom";
-import {Link} from "react-router-dom";
+import { Outlet, useNavigate} from "react-router-dom";
 
 const Users = (...props: any[]) => {
+    const t = useNavigate();
+
+
     return <div>
-        <h1>hello</h1>
+        <h1 onClick={() => {
+            t('/user/12', {state: {x: 10}});
+        }
+        }>hello</h1>
         <Outlet />
     </div>
 };
