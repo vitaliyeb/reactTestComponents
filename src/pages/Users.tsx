@@ -1,16 +1,21 @@
-import { Outlet, useNavigate} from "react-router-dom";
+import {useFetch} from "../hooks";
+import { User } from "../api";
+import { useEffect } from "react";
+import {UserCard} from "../components/uikit/UserCard";
 
 const Users = (...props: any[]) => {
-    const t = useNavigate();
+    const getUsers = useFetch(User.getAllUsers);
 
+    useEffect(() => {
+        (async () => {
+            await getUsers({})
+        })();
+    }, []);
 
     return <div>
-        <h1 onClick={() => {
-            t('/user/12', {state: {x: 10}});
-        }
-        }>hello</h1>
-        <Outlet />
+        <UserCard />
     </div>
 };
+
 
 export default Users;

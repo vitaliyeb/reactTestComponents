@@ -1,6 +1,6 @@
 
 export class User {
-    getAllUsers() {
+    static getAllUsers() {
 
     }
 
