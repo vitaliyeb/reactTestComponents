@@ -11,9 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044f7f5e-e2d3-4fbb-ae50-7528e08023e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/types/api/load.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/parsePagination.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/uikit/Pagination/undex.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/uikit/Pagination/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/load.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/load.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useFetch.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useFetch.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +55,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/uikit/Pagination" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -183,7 +188,9 @@
       <workItem from="1638272736840" duration="259000" />
       <workItem from="1638274303470" duration="2128000" />
       <workItem from="1638283940056" duration="1175000" />
-      <workItem from="1638434533521" duration="5079000" />
+      <workItem from="1638434533521" duration="5146000" />
+      <workItem from="1638511459940" duration="55000" />
+      <workItem from="1638514466683" duration="6705000" />
     </task>
     <servers />
   </component>
