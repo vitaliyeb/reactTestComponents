@@ -11,14 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="044f7f5e-e2d3-4fbb-ae50-7528e08023e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/types/api/load.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/parsePagination.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/load.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/load.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useFetch.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useFetch.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Users.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Users.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +70,10 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
-    <property name="ts.external.directory.path" value="C:\Users\user\Desktop\reactTestComponents\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\vlvlv\Desktop\reactTestComponents\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -73,7 +84,7 @@
       <recent name="C:\Users\vlvlv\Desktop\reactTestComponents\src\types\api" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Jest.testing mock">
     <configuration name="тестирование методов библиотеки jest-dom.тестирование на toBeChecked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -102,20 +113,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="тестирование методов библиотеки jest-dom.тестирование на toHaveDisplayValue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
-      <test-names>
-        <test-name value="тестирование методов библиотеки jest-dom" />
-        <test-name value="тестирование на toHaveDisplayValue" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="test render components" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -126,6 +123,19 @@
       <test-file value="$PROJECT_DIR$/src/TestReduxComponent.test.js" />
       <test-names>
         <test-name value="test render components" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="testing mock" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/testing.test.js" />
+      <test-names>
+        <test-name value="testing mock" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -141,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.testing mock" />
         <item itemvalue="npm.start" />
         <item itemvalue="Jest.test render components" />
         <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveDescription" />
         <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toBeChecked" />
-        <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveDisplayValue" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +201,7 @@
       <workItem from="1638434533521" duration="5146000" />
       <workItem from="1638511459940" duration="55000" />
       <workItem from="1638514466683" duration="6705000" />
+      <workItem from="1638800192693" duration="2055000" />
     </task>
     <servers />
   </component>
