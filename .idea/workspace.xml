@@ -12,9 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="044f7f5e-e2d3-4fbb-ae50-7528e08023e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testing.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/testing.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jest.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/jest.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testing.test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="C:\Users\vlvlv\Desktop\reactTestComponents\node_modules\typescript\lib" />
@@ -69,21 +68,7 @@
       <recent name="C:\Users\vlvlv\Desktop\reactTestComponents\src\types\api" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.test">
-    <configuration name="тестирование методов библиотеки jest-dom.тестирование на toHaveDescription" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/JestDomComponent.test.js" />
-      <test-names>
-        <test-name value="тестирование методов библиотеки jest-dom" />
-        <test-name value="тестирование на toHaveDescription" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.testing jest api.mock user getAll ">
     <configuration name="test render components" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -94,6 +79,20 @@
       <test-file value="$PROJECT_DIR$/src/TestReduxComponent.test.js" />
       <test-names>
         <test-name value="test render components" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="testing jest api.mock user getAll " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/jest.test.ts" />
+      <test-names>
+        <test-name value="testing jest api" />
+        <test-name value="mock user getAll " />
       </test-names>
       <method v="2" />
     </configuration>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.testing jest api.mock user getAll " />
         <item itemvalue="npm.test" />
         <item itemvalue="Jest.testing mock" />
         <item itemvalue="npm.start" />
         <item itemvalue="Jest.test render components" />
-        <item itemvalue="Jest.тестирование методов библиотеки jest-dom.тестирование на toHaveDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +181,8 @@
       <workItem from="1638434533521" duration="5146000" />
       <workItem from="1638511459940" duration="55000" />
       <workItem from="1638514466683" duration="6705000" />
-      <workItem from="1638800192693" duration="4093000" />
+      <workItem from="1638800192693" duration="4625000" />
+      <workItem from="1638886223879" duration="1326000" />
     </task>
     <servers />
   </component>
