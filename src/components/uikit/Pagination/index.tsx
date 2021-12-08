@@ -1,15 +1,16 @@
-import {ReactElement} from "react";
+import React, {ReactElement, useState} from "react";
 
 
 interface IProps {
-    children: ReactElement;
-    handlePaginationClick: () => void;
-    pages: number,
-    page: number
+    Views: React.FC<{ items: any }>;
+    pages: number;
+    requestElements: (...args: any[]) => void;
 }
 
-export const Pagination = ({ children, pages, page }: IProps) => {
+export const Pagination = ({ Views, pages }: IProps) => {
 
+    const [page, setPage] = useState(1);
+    const [items, setItems] = useState([]);
 
     const startPagesEnumeration =  (s => s <= 0 ? 1 : s + 1)(page - Math.floor(pages / 2));
     const handlePageClick = (page: number) => {
@@ -17,9 +18,7 @@ export const Pagination = ({ children, pages, page }: IProps) => {
     }
 
     return <div>
-        <div>
-            { children }
-        </div>
+        { <Views items={items}/> }
         <div>
             <button>предыдущая</button>
             {
@@ -28,7 +27,7 @@ export const Pagination = ({ children, pages, page }: IProps) => {
 
                     return <button
                         key={i}
-                        onClick={() => handlePageClick(page)}
+                        onClick={() => handlePageClick(currentPage)}
                     >{ currentPage }</button>
                 })
             }
