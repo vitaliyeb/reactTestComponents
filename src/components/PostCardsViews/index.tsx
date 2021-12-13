@@ -1,5 +1,5 @@
 import {IPost} from "../../types/api/post";
-
+import styles from './style.module.css';
 
 interface IProps {
     items: IPost[];
@@ -7,12 +7,12 @@ interface IProps {
 }
 
 const PostCardsViews = ({items, isLoading}: IProps) => {
-    console.log(items)
     return (<div>
+        <div className={styles.heading}>Posts</div>
         {
-            items.map(({ id, title, body }) => (<div key={id}>
-                <p>{ title }</p>
-                <p>{ body }</p>
+            items.map(({ id, title, body }) => (<div className={styles.post} key={id}>
+                <p className={styles.title}>{ title }</p>
+                <p className={styles.body}>{ body }</p>
             </div>))
         }
     </div>)
