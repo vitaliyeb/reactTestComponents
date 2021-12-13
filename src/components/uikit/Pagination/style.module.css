@@ -23,3 +23,8 @@
 .pageButton.active {
     background-color: #6379e5;
 }
+
+.disabled {
+    pointer-events: none;
+    opacity: .6;
+}

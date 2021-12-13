@@ -26,10 +26,8 @@ export const Pagination = ({ Views, pages, requestElements }: IProps) => {
         })()
     }, []);
 
-
     const startPagesEnumeration =  (p => p + viewsPages > lastPage ? lastPage - viewsPages + 1 : p)(((s: number) => s <= 0 ? 1 : s + 1)(page - Math.ceil(viewsPages / 2)));
 
-    console.log(startPagesEnumeration, lastPage)
     const handlePageClick = async (page: number) => {
         setLoading(true);
         const { data, extra } = await requestElements(page);
@@ -42,7 +40,12 @@ export const Pagination = ({ Views, pages, requestElements }: IProps) => {
     return <div>
         { <Views items={items} isLoading={loading}/> }
         <div className={styles.pagination}>
-            <button onClick={() => handlePageClick(page - 1)}>предыдущая</button>
+            <button
+                className={page === 1 ? styles.disabled : ''}
+                onClick={() => handlePageClick(page - 1)}
+            >
+                предыдущая
+            </button>
             {
                 Array.from({length: viewsPages}).map((e, i) => {
                     const currentPage = startPagesEnumeration + i;
@@ -55,7 +58,12 @@ export const Pagination = ({ Views, pages, requestElements }: IProps) => {
                     >{ currentPage }</button>
                 })
             }
-            <button onClick={() => handlePageClick(page + 1)}>Следующая</button>
+            <button
+                className={page === lastPage ? styles.disabled : ''}
+                onClick={() => handlePageClick(page + 1)}
+            >
+                Следующая
+            </button>
         </div>
     </div>
 };
