@@ -7,8 +7,13 @@ interface IProps {
 }
 
 const PostCardsViews = ({items, isLoading}: IProps) => {
+    console.log(items)
     return (<div>
         {
+            items.map(({ id, title, body }) => (<div key={id}>
+                <p>{ title }</p>
+                <p>{ body }</p>
+            </div>))
         }
     </div>)
 };
