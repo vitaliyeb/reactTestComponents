@@ -11,11 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c49f390-e422-48dd-9143-9ca726ea110d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PostCardsViews/style.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles.global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostCardsViews/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostCardsViews/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/uikit/Pagination/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/uikit/Pagination/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/uikit/Pagination/style.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/uikit/Pagination/style.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

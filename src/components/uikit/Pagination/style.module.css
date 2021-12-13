@@ -1,0 +1,25 @@
+.pagination {
+    margin: 20px auto;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+.pagination > button {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #cdbbdd;
+}
+
+.pageButton {
+    width: 25px;
+}
+
+.pageButton.active {
+    background-color: #6379e5;
+}
