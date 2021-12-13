@@ -1,10 +1,10 @@
-interface IReturnType {
+export interface IPaginationData{
     next: string;
     last: string;
     first: string;
 }
 
-export default function (response: Response): IReturnType | null {
+export default function (response: Response): IPaginationData | null {
    const link = response.headers.get('link');
 
     if (link) {
@@ -12,11 +12,11 @@ export default function (response: Response): IReturnType | null {
             const key = (/rel="(\w+)"/).exec(link);
             const value = (/_page=(\d+)/).exec(link);
             if (key && value){
-                acc[key[1] as keyof IReturnType] = value[1];
+                acc[key[1] as keyof IPaginationData] = value[1];
                 return acc;
             }
             return acc;
-        }, {} as IReturnType);
+        }, {} as IPaginationData);
     }
     return null;
 }

@@ -12,8 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0c49f390-e422-48dd-9143-9ca726ea110d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/post.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/uikit/Pagination/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/uikit/Pagination/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/uikit/Pagination/style.modules.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/uikit/Pagination/style.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Posts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/parsePagination.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/parsePagination.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

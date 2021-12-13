@@ -13,7 +13,7 @@ const Post = () => {
 
     return (<div>
         <Pagination
-            pages={10}
+            pages={5}
             requestElements={requestPosts}
             Views={PostCardsViews}
         />
