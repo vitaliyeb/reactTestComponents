@@ -22,8 +22,9 @@ export const Pagination = ({ Views, pages, requestElements }: IProps) => {
         (async () => {
             const response = await requestElements();
             setItems(response.data);
+            setExtra(extra);
             setLoading(false);
-        })()
+        })();
     }, []);
 
     const startPagesEnumeration =  (p => p + viewsPages > lastPage ? lastPage - viewsPages + 1 : p)(((s: number) => s <= 0 ? 1 : s + 1)(page - Math.ceil(viewsPages / 2)));
