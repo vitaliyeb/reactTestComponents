@@ -22,7 +22,7 @@ export const Pagination = ({ Views, pages, requestElements }: IProps) => {
         (async () => {
             const response = await requestElements();
             setItems(response.data);
-            setExtra(extra);
+            setExtra(response.extra);
             setLoading(false);
         })();
     }, []);
@@ -42,6 +42,7 @@ export const Pagination = ({ Views, pages, requestElements }: IProps) => {
         { <Views items={items} isLoading={loading}/> }
         <div className={styles.pagination}>
             <button
+                data-testid='prevButton'
                 className={page === 1 ? styles.disabled : ''}
                 onClick={() => handlePageClick(page - 1)}
             >
@@ -60,6 +61,7 @@ export const Pagination = ({ Views, pages, requestElements }: IProps) => {
                 })
             }
             <button
+                data-testid='nextButton'
                 className={page === lastPage ? styles.disabled : ''}
                 onClick={() => handlePageClick(page + 1)}
             >
