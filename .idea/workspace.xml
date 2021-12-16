@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0c49f390-e422-48dd-9143-9ca726ea110d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/uikit/Pagination/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/uikit/Pagination/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/uikit/Pagination/pagination.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/uikit/Pagination/pagination.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hv-landing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -197,7 +196,8 @@
       <workItem from="1639320128855" duration="3242000" />
       <workItem from="1639460376302" duration="15991000" />
       <workItem from="1639550054209" duration="35000" />
-      <workItem from="1639552049021" duration="6480000" />
+      <workItem from="1639552049021" duration="7893000" />
+      <workItem from="1639637420119" duration="1622000" />
     </task>
     <servers />
   </component>

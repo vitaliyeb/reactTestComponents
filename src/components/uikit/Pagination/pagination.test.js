@@ -1,5 +1,5 @@
 import {Pagination} from "./index";
-import {render, screen, waitFor, fireEvent} from "@testing-library/react";
+import {render, screen, waitFor, fireEvent } from "@testing-library/react";
 import '@testing-library/jest-dom/extend-expect';
 
 
@@ -9,18 +9,24 @@ const TestPaginationViews = ({ items, isLoading }) => {
     }
 
     return <div data-testid="items">
-        hello
+        {
+            items.map((item, i) => <p key={i}>{ item.title }</p>)
+        }
     </div>
 }
+
+const itemsLength = 5;
+const response = {
+    data: Array.from({length: itemsLength}).map((el, i) => ({title: `Title post`})),
+    extra: {
+        first: "1",
+        last: "3",
+        next: "2",
+    } };
 
 describe('test Pagination component', () => {
 
     beforeEach(async () => {
-        const response = { data: {}, extra: {
-                first: "1",
-                last: "3",
-                next: "2",
-            } };
         const mockRequest = jest.fn(() => new Promise(res => setTimeout(()=>res(response), 100)));
 
         await waitFor(() =>
@@ -53,5 +59,21 @@ describe('test Pagination component', () => {
         expect(prevButton).not.toHaveClass('disabled');
         expect(nextButton).toHaveClass('disabled');
     });
+
+    it('current button have active class', async () => {
+        expect(screen.getByText(/1/)).toHaveClass('active');
+        const goToPageButton= screen.getByText(/2/);
+        fireEvent.click(goToPageButton);
+        await waitFor(() => expect(goToPageButton).toHaveClass('active'))
+        expect(screen.getByText(/1/)).not.toHaveClass('active');
+        expect(screen.getByText(/1/)).not.toHaveClass('active');
+        screen.debug();
+    })
+
+    it('check views items count', async () => {
+        expect(await screen.findByTestId('items')).toBeInTheDocument();
+        expect(screen.getAllByText(/Title post/).length).toBe(itemsLength);
+    })
+
 
 })
